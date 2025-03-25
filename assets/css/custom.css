@@ -1,14 +1,26 @@
-/* Force all text in the bio-text and surrounding prose to white */
-.prose.prose-slate,
+/* Force all text in bio-text section and education/interests to white */
 .bio-text,
 .bio-text * {
   color: white !important;
 }
 
-/* The grid content below (Interests and Education) */
+/* Override Tailwind prose class styles */
+.prose.prose-slate,
+.prose.prose-slate * {
+  color: white !important;
+}
+
+/* Education + Interests grid below bio */
 .grid.grid-cols-1,
 .grid.grid-cols-1 * {
   color: white !important;
+}
+
+/* Optional: make links white as well */
+.bio-text a,
+.grid.grid-cols-1 a {
+  color: white !important;
+  text-decoration: underline; /* optional */
 }
 
 
@@ -18,21 +30,25 @@
     height: 180px !important;
   }
 
+/* Add spacing below the avatar */
 .avatar-wrapper {
-    margin-bottom: 1.5rem; /* or try 2rem if needed */
+    margin-bottom: 1.5rem; /* Adjust as needed to avoid overlap */
   }
   
-/* Chinese name (inside <rb>) */
+/* Make Chinese name smaller */
 .portrait-title ruby rb {
-    font-size: 1.5rem; /* decrease as needed */
+    font-size: 1.25rem;  /* smaller Chinese font */
+    font-weight: 400;
   }
   
-  /* English name (inside <rt>) */
+/* Make English name larger and on separate line */
 .portrait-title ruby rt {
-    font-size: 2rem; /* increase as needed */
-    font-weight: 700; /* optional: bold */
-    display: block;   /* ensure line break */
-    margin-top: 0.2rem;
+    display: block;       /* puts English name below Chinese */
+    font-size: 2rem;       /* larger English font */
+    font-weight: 700;      /* bold */
+    margin-top: 0.25rem;   /* spacing from Chinese */
+    line-height: 1.2;
   }
+  
   
   

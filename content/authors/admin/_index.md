@@ -10,8 +10,8 @@ first_name: Un Lok
 last_name: Chen
 
 # Status emoji
-status:
-  icon: 💭
+# status:
+#   icon: 💭
 
 # Is this the primary user of the site?
 superuser: true
