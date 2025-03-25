@@ -73,8 +73,8 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Computer and Information Science
     institution: University of Macau
-    date_start: 2020-08
-    date_end: 2024-06
+    date_start: 2020-08-01
+    date_end: 2024-06-30
     # summary: |
     #   GPA: 3.9/4.0
       
