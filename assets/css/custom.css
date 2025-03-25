@@ -1,15 +1,38 @@
-.bio-text {
-    color: white;
-  }
+/* Force all text in the bio-text and surrounding prose to white */
+.prose.prose-slate,
+.bio-text,
+.bio-text * {
+  color: white !important;
+}
+
+/* The grid content below (Interests and Education) */
+.grid.grid-cols-1,
+.grid.grid-cols-1 * {
+  color: white !important;
+}
+
 
 /* Make the avatar image larger */
 .avatar {
     width: 180px !important;
     height: 180px !important;
   }
-  
-  /* Enlarge the name text "Chen Un Lok" */
-  .portrait-title .text-3xl {
-    font-size: 2.5rem !important; /* Tailwind's text-3xl is 1.875rem by default */
+
+.avatar-wrapper {
+    margin-bottom: 1.5rem; /* or try 2rem if needed */
   }
+  
+/* Chinese name (inside <rb>) */
+.portrait-title ruby rb {
+    font-size: 1.5rem; /* decrease as needed */
+  }
+  
+  /* English name (inside <rt>) */
+.portrait-title ruby rt {
+    font-size: 2rem; /* increase as needed */
+    font-weight: 700; /* optional: bold */
+    display: block;   /* ensure line break */
+    margin-top: 0.2rem;
+  }
+  
   
