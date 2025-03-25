@@ -5,8 +5,9 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: light
   color: blue
+  theme_default: dark
 
 # SEO
 marketing:
