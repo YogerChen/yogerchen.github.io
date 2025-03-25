@@ -182,6 +182,6 @@ education:
 
 ## About Me
 
-Hi!👋 I am a first-year master's student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), very fortunate to be advised by Prof. [Longbo Huang] (https://people.iiis.tsinghua.edu.cn/~huang/). Prior to my master's study, I received my Bachelor's degree in Computer Science from [University of Macau](https://www.um.edu.mo/).
+Hi! 👋 I am a first-year master's student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn/en/), very fortunate to be advised by Prof. [Longbo Huang](https://people.iiis.tsinghua.edu.cn/~huang/). Prior to my master's study, I received my Bachelor's degree in Computer Science from [University of Macau](https://www.um.edu.mo/).
 
-I'm currently focused on abstract visual reasoning tasks 👁️‍🗨️, such as the [ARC-AGI Challenge] (https://arcprize.org/), and actively investigating solutions spanning multimodal LLM reasoning, neuro-symbolic methods, and beyond. I believe tackling problems like these can uncover new pathways toward advancing AGI. If you're interested in collaborating—or just exchanging ideas—feel free to reach out!
+I'm currently focused on abstract visual reasoning tasks 👁️‍🗨️, such as the [ARC-AGI Challenge](https://arcprize.org/), and actively investigating solutions spanning multimodal LLM reasoning, neuro-symbolic methods, and beyond. I believe tackling problems like these can uncover new pathways toward advancing AGI. If you're interested in collaborating—or just exchanging ideas—feel free to reach out!
