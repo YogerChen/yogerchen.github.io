@@ -1,0 +1,15 @@
+.bio-text {
+    color: white;
+  }
+
+/* Make the avatar image larger */
+.avatar {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  
+  /* Enlarge the name text "Chen Un Lok" */
+  .portrait-title .text-3xl {
+    font-size: 2.5rem !important; /* Tailwind's text-3xl is 1.875rem by default */
+  }
+  
